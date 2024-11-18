@@ -12,6 +12,7 @@ provisionDataStore:
 
 allInOne:
   enabled: true
+  replicas: 3
   image: docker.io/jaegertracing/all-in-one
 
 storage:
